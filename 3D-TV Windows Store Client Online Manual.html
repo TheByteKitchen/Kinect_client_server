@@ -1,0 +1,28 @@
+<div class="wikidoc">
+<h1>3D-TV Manual</h1>
+<p>3D-TV is a remote client for viewing integrated Kinect Color and Depth data. The intended use is to run 3D-TV on one PC (the client) and to run the KinectColorDepthServer software on another PC (the server) to which a Kinect has been attached. The client
+ and the server are to be connected by gigabit Ethernet.</p>
+<h2>Requirements</h2>
+<h3>Server requirements</h3>
+<p>In order to run the KinectColorDepthServer application on your server PC, the following steps are required:</p>
+<ol>
+<li>download and install <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40277" target="_blank">
+the Kinect runtime</a>. </li><li>Download and install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=8109" target="_blank">
+DirectX end-user runtime</a> (June 2010), if required. </li><li>Download the <a href="http://1drv.ms/21YifEU" target="_blank">KinectColorDepthServer</a> executable.
+</li><li>Install the applicable VC&#43;&#43; redistributable (included in the KinectColorDepthServer package)
+</li><li>Copy the server executable and DLL to a suitable location on your pc. </li><li>Connect your Kinect for Windows. </li><li>Configure a Gigabit LAN adapter to use ip4 address 192.168.0.20. 3D-TV is hardcoded configured to connect to that ip4 address. Typical network throughput is larger than 100Mbit/s.
+</li><li>Connect the cable to your client pc, directly or indirectly. </li><li>Double click KinectColorDepthServerApp.exe. </li></ol>
+<p>The KinectColorDepthServer application should now display a message stating that it is waiting for connections.</p>
+<h3>Client requirements</h3>
+<p>In order to run the 3D-TV application on your client PC, the following steps are required:</p>
+<ol>
+<li>Download and install 3D-TV from the Windows Store. </li><li>Assure you are connected by Gigabit LAN connection to the server machine, and the KinectColorDepthServer application is running.
+</li><li>Click the 3D-TV icon on the Start screen, 3D-TV should start up. </li><li>Click the Start button, 3D-TV should show a Progress ring and a few messages informing you of its progress in initialization. Instead of clicking or tapping the Start button, you can use the Space bar or Enter key on your keyboard.
+</li><li>After some initialization time, the screen should show you Kinect 3D images. </li><li>Click or tap the Stop button to end the current run. </li></ol>
+<p>In case an error occurs, 3D-TV displays a red popup window, showing the last error message it received. If there are several error messages, you can browse them using the &lsquo;next&rsquo; and &lsquo;previous&rsquo; buttons at the bottom of the error popup.</p>
+<h2>&nbsp;</h2>
+<h2>Navigation</h2>
+<p>Once the client is rendering Kinect frames, you can navigate through the scene.</p>
+<ul>
+<li>Use the arrow buttons to retarget the virtual camera. </li><li>Alternatively use the A, D keys to turn left and right. </li><li>Alternatively&nbsp; use the R, F keys to turn up and down. </li><li>Use the W, S keys to move forward an backward. </li></ul>
+</div><div class="ClearBoth"></div>
