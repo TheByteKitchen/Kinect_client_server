@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Winsock2Svr">
+      <UniqueIdentifier>{2e932fcf-3f76-48f5-9655-9ec42e6a9590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KinectColorDepthServer">
+      <UniqueIdentifier>{ca3d896a-815c-4aa3-be61-59444d30e023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6db05d50-91cd-4b15-a380-006b698244aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreCompiledHeader">
+      <UniqueIdentifier>{2fd4ffe9-b5ca-45aa-b558-bbe79c243bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KinectDataSource">
+      <UniqueIdentifier>{f231726b-833f-4af5-bccf-dc016ddbe05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{0fba1c78-9b14-4f4a-a113-b0071d4033af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColorWinSockSvr.h">
+      <Filter>Winsock2Svr</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthWinSockSvr.h">
+      <Filter>Winsock2Svr</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSock2Svr.h">
+      <Filter>Winsock2Svr</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSock2SvrException.h">
+      <Filter>Winsock2Svr</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PreCompiledHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDataSource.h">
+      <Filter>KinectDataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectColorDepthServer.h">
+      <Filter>KinectColorDepthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="IKinectColorDepthServer.h">
+      <Filter>KinectColorDepthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinSock2Svr.cpp">
+      <Filter>Winsock2Svr</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthWinSockSvr.cpp">
+      <Filter>Winsock2Svr</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorWinSockSvr.cpp">
+      <Filter>Winsock2Svr</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectColorDepthServer.cpp">
+      <Filter>KinectColorDepthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PreCompiledHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectDataSource.cpp">
+      <Filter>KinectDataSource</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>1d7fdfa4-aece-4293-8f8c-6989d4102523</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f81fa82b-c9ae-4256-ac82-c17641278e67</UniqueIdentifier>
+    </Filter>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Various">
+      <UniqueIdentifier>{581d5d63-ce80-46aa-90e8-19c3adccd1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{2b8fc9a0-26f1-4a91-84bf-feb3b325d03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9b491539-d442-4778-b490-d00f8ad9fc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KinectColorDepthClient">
+      <UniqueIdentifier>{b6eb4d27-0dd1-41fa-830b-1e15d76bc496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KinectImage">
+      <UniqueIdentifier>{a73eecd6-8185-426a-8477-fa1c4b019b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene1">
+      <UniqueIdentifier>{dec091ef-b7a3-4499-a5f7-c45e30cb87ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{9220903a-b3ed-45e4-8748-b8e1af76d2fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectColorDepthClient.cpp">
+      <Filter>KinectColorDepthClient</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectImage.cpp">
+      <Filter>KinectImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectDataPtr.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfTimer.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectColorDepthClient.h">
+      <Filter>KinectColorDepthClient</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectImage.h">
+      <Filter>KinectImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>Scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDataPtr.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfTimer.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDefs.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Various</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="GeometryShader.hlsl">
+      <Filter>KinectImage</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>KinectImage</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>KinectImage</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D-TV_TemporaryKey.pfx">
+      <Filter>Various</Filter>
+    </None>
+  </ItemGroup>
+</Project>
